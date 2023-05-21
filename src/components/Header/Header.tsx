@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Container, Content, MenuOptions } from "./HeaderStyles";
+import { Container, Content, Left, LinkLogo, Logo, Right, Nav, MenuOptions, LinkGit } from "./HeaderStyles";
 
 type HeaderProps = {
     title: string;
@@ -10,24 +10,23 @@ function Header({title}: HeaderProps) {
     return <>
           <Container>
             <Content>
-                <div>
-                    <a href="">
-                        <Image src="/vercel.svg" alt="" width={100} height={50} />
-                    </a>
-                </div>
-                <div>
-                    <nav>
+                <Left>
+                    <LinkLogo href="">
+                        <Logo>Alysson Mendes</Logo>
+                    </LinkLogo>
+                </Left>
+                <Right>
+                    <Nav>
                         <MenuOptions href="">HOME</MenuOptions>
                         <MenuOptions href="">ABOUT</MenuOptions>
                         <MenuOptions href="">SKILLS</MenuOptions>
                         <MenuOptions href="">WORK</MenuOptions>
                         <MenuOptions href="">CONTACT</MenuOptions>
-                    </nav>
-                    <a href="">
-                        <img src="" alt="git" />
-                    </a>
-                    <button>Contact Me</button>
-                </div>
+                    </Nav>
+                    <LinkGit href="">
+                        <Image src="/git.png" alt="git" width={20} height={20}/>
+                    </LinkGit>
+                </Right>
             </Content>
           </Container>
     </>

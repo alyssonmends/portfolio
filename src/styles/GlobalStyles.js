@@ -7,7 +7,11 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-    
+  }
+
+  a {
+    color: ${({theme}) => theme.colors.white};
+    text-decoration: none;
   }
 
   body, html, #root {
@@ -20,8 +24,9 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background: ${({ theme }) => theme.colors.white};
+    background-color: ${({theme}) => theme.colors.primary};
     color: ${({ theme }) => theme.text};
+    font-size: 13px;
     font-family: 'Poppins';
     transition: all 0.50s linear;
   }
