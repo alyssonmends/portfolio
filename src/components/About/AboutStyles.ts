@@ -14,21 +14,15 @@ export const Content = styled.div`
     justify-content: space-between;
 `;
 
+export const Image = styled.img`
+`;
+
 export const TextBanner = styled.div`
     max-width: 500px;
     margin-top: 20px;
 `;
 
-export const Text1 = styled.div`
-    color: ${({theme}) => theme.colors.text1};
-    font-size: 20px;
-`;
-
-export const Text2 = styled.div`
-    color: ${({theme}) => theme.colors.white};
-`;
-
-export const Text3 = styled.div`
+export const Text = styled.p`
     color: ${({theme}) => theme.colors.white};
     font-size: 14px;
     margin-top: 15px;

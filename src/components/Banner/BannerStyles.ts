@@ -15,6 +15,10 @@ export const Content = styled.div`
     justify-content: space-between;
 `;
 
+export const Image = styled.img`
+
+`;
+
 export const TextBanner = styled.div`
     max-width: 500px;
     margin-top: 20px;

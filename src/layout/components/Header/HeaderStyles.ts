@@ -4,6 +4,9 @@ export const Logo = styled.h1`
     color: ${({theme}) => theme.colors.text1};
 `;
 
+export const Image = styled.img`
+`;
+
 export const Container = styled.div`
     background-color: ${({theme}) => theme.colors.primary};
     width: 100%;

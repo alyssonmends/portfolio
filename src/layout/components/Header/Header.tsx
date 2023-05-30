@@ -1,5 +1,5 @@
-import Image from "next/image";
-import { Container, Content, Left, LinkLogo, Logo, Right, Nav, MenuOptions, LinkGit } from "./HeaderStyles";
+import { Container, Content, Left, LinkLogo, Logo, Right, Nav, MenuOptions, LinkGit, Image } from "./HeaderStyles";
+import GitImage from "../../assets/images/git.png";
 
 type HeaderProps = {
     title: string;
@@ -24,7 +24,7 @@ function Header({title}: HeaderProps) {
                         <MenuOptions href="">CONTACT</MenuOptions>
                     </Nav>
                     <LinkGit href="">
-                        <Image src="/git.png" alt="git" width={20} height={20}/>
+                        {/* <Image src={GitImage} alt="git" width={20} height={20}/> */}
                     </LinkGit>
                 </Right>
             </Content>
