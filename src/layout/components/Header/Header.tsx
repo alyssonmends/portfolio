@@ -1,5 +1,6 @@
 import { Container, Content, Left, LinkLogo, Logo, Right, Nav, MenuOptions, LinkGit, Image } from "./HeaderStyles";
-import GitImage from "../../assets/images/git.png";
+import GitImage from "../../../assets/images/wpp.png";
+import LogoImage from "../../../assets/images/logo.png";
 
 type HeaderProps = {
     title: string;
@@ -12,19 +13,19 @@ function Header({title}: HeaderProps) {
             <Content>
                 <Left>
                     <LinkLogo href="">
-                        <Logo>Alysson Mendes</Logo>
+                        <Logo src={LogoImage} alt="logo" width={300} height={35} />
                     </LinkLogo>
                 </Left>
                 <Right>
                     <Nav>
-                        <MenuOptions href="">HOME</MenuOptions>
-                        <MenuOptions href="">ABOUT</MenuOptions>
-                        <MenuOptions href="">SKILLS</MenuOptions>
-                        <MenuOptions href="">WORK</MenuOptions>
-                        <MenuOptions href="">CONTACT</MenuOptions>
+                        <MenuOptions href="#">HOME</MenuOptions>
+                        <MenuOptions href="#about">SOBRE</MenuOptions>
+                        <MenuOptions href="#skill">SKILLS</MenuOptions>
+                        <MenuOptions href="#work">PROJETOS</MenuOptions>
+                        <MenuOptions href="#contact">CONTATO</MenuOptions>
                     </Nav>
                     <LinkGit href="">
-                        {/* <Image src={GitImage} alt="git" width={20} height={20}/> */}
+                        <Image src={GitImage} alt="git" width={20} height={20} />
                     </LinkGit>
                 </Right>
             </Content>

@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
-function TitleSection({title, position}: any) {
+function SectionTitle({title, position}: any) {
 
     return <>
         <Text position={position}>{title}</Text>
     </>
 }
 
-export default TitleSection;
+export default SectionTitle;
 
  
 export const Text = styled.h3.attrs((props: {position: string}) => props)`

@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+}
+
 body, html, #root {
   height: 100%;
   width: 100%;

@@ -1,14 +1,14 @@
 import { Container, Content, TextBanner, Text, Image } from "./AboutStyles";
-import TitleSection from "../Ui/TitleSection";
+import SectionTitle from "../Ui/SectionTitle";
 import BannerImage from "../../assets/images/banner8.png";
 
 function About() {
 
     return <>
-        <Container>
+        <Container id="about">
             <Content>
                 <TextBanner>
-                    <TitleSection position={"left"} title={"Sobre mim"} />
+                    <SectionTitle position={"left"} title={"Sobre mim"} />
                     <Text>Tenho 27 anos e sou desenvolvedor full-stack, com experiência em JavaScript, C#, .NET, Android e SQL. Atualmente, estou me dedicando ao estudo de aplicativos web modernos e escaláveis, em React e TypeScript.
                         <br />
                         <br />

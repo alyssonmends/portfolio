@@ -6,7 +6,8 @@ export default {
   colors: {
     primary: "#0b002a",
     secondary: "#12133a",
-    terciary: "#16213d",
+    tertiary: "#16213d",
+    quaternary: "#1a0e3a",
     text1: "#58c477",
     text2: "#838593",
     text3: "#57587d",
@@ -15,7 +16,7 @@ export default {
     error: "#B91C1C",
     white: "#eef6ff",
     black: "#27323F",
-    gray900: "#333333",
+    gray: "#333333",
   },
 
 } as DefaultTheme;

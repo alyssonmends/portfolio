@@ -1,5 +1,5 @@
 import { Container, Content, Flex } from "./WorkStyles";
-import TitleSection from "../Ui/TitleSection";
+import SectionTitle from "../Ui/SectionTitle";
 import WorkBlock from "./components/WorkBlock";
 import Project1Image from "../../assets/images/projeto1.png";
 import Project2Image from "../../assets/images/projeto2.png";
@@ -21,7 +21,7 @@ function Work() {
           name: "CSS3",
         },
       ],
-      description: "Teste",
+      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       gitUrl: "https://www.canva.com/design/DAEuQG4BaYE/Sw38SeNlyRJudmwutNciNg/edit",
     },
     {
@@ -44,9 +44,9 @@ function Work() {
 
   return (
     <>
-      <Container>
+      <Container id="work">
         <Content>
-          <TitleSection position={"center"} title={"My Works"} />
+          <SectionTitle position={"center"} title={"Projetos"} />
           <Flex>
             {works.map((work, index) => {
               return (

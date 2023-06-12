@@ -7,7 +7,8 @@ declare module "styled-components" {
     colors: {
       primary: string,
       secondary: string,
-      terciary: string,
+      tertiary: string,
+      quaternary: string,
       text1: string,
       text2: string,
       text3: string,
@@ -16,7 +17,7 @@ declare module "styled-components" {
       error:  string,
       white:  string,
       black:  string,
-      gray900: string,
+      gray: string,
     };
   
   }

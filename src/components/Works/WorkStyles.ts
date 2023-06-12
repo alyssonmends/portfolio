@@ -11,7 +11,6 @@ export const Content = styled.div`
 `;
 
 export const Flex = styled.div`
-    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;

@@ -1,6 +1,7 @@
 import { Container, Content, Flex } from "./SkillStyles";
-import TitleSection from "../Ui/TitleSection";
+import SectionTitle from "../Ui/SectionTitle";
 import SkillBlock from "./components/SkillBlock"
+import Project1Image from "../../assets/images/logo-scrum.png";
 
 function Skill() {
 
@@ -51,14 +52,14 @@ function Skill() {
         },
         {
             title: "Scrum",
-            url: "/logo-scrum.png"
+            url: Project1Image
         },
     ]
 
     return <>
         <Container>
-            <Content>
-                <TitleSection position={"center"} title={"My Skills"} />
+            <Content id="skill">
+                <SectionTitle position={"center"} title={"Skills"} />
                 <Flex>
                     {skills.map((skill, index) => {
                         return <SkillBlock key={index} title={skill.title} url={skill.url} />

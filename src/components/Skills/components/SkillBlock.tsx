@@ -24,6 +24,12 @@ export const Block = styled.div`
     padding: 15px 40px 20px;
     border-radius: 20px;
     margin-top: 20px;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+    &:hover {
+      transform: scale(1.1);
+    }
 `;
 
 export const ImageBackground = styled.div`

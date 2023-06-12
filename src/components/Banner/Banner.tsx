@@ -10,7 +10,7 @@ function Banner() {
         <Container>
             <Content>
                 <TextBanner>
-                    <Text1>Hey! I Am</Text1>
+                    <Text1>Olá! Eu sou</Text1>
                     <Text2>Alysson Mendes</Text2>
                     <Text3>Sou desenvolvedor full-stack em JavaScript, C#, .NET, Android e SQL. Atualmente, estou focado no estudo de React e TypeScript para aprimorar minhas habilidades no desenvolvimento de aplicativos web escaláveis e modernos.</Text3>
                     <Follow>

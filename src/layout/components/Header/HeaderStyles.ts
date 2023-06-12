@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Logo = styled.h1`
+export const Logo = styled.img`
     color: ${({theme}) => theme.colors.text1};
 `;
 
