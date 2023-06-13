@@ -10,31 +10,31 @@ import FooterContact from "./components/FooterContact";
 function Footer() {
   const footer = [
     {
-      link: "",
+      link: "https://api.whatsapp.com/send?phone=5585997939177",
       src: iconTel,
       icon: "Telefone",
       value: "(85) 99793-9177",
     },
     {
-      link: "",
+      link: "mailto:alyssonmeng@gmail.com",
       src: iconEmail,
       icon: "Email",
-      value: "alysson@alysson.dev.br",
+      value: "alyssonmeng@gmail.com",
     },
     {
-      link: "",
+      link: "https://www.linkedin.com/in/alysson-mendes/",
       src: iconLinkedin,
       icon: "Linkedin",
       value: "@alysson-mendes",
     },
     {
-      link: "",
+      link: "https://github.com/alyssonmends",
       src: iconGit,
       icon: "Git",
       value: "@alyssonmends",
     },
     {
-      link: "",
+      link: "https://goo.gl/maps/rpsR8M2Nm58nZHBm8",
       src: iconAddress,
       icon: "Endereço",
       value: "Fortaleza, CE",

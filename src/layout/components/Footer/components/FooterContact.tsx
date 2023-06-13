@@ -15,7 +15,7 @@ function FooterContact({
 }: HeaderProps) {
   return (
     <>
-      <ContactLink href={link}>
+      <ContactLink href={link} target="_blank">
         <ContactIcon>
           <Icon src={srcImg} alt={iconTitle} width={30} height={30} />
         </ContactIcon>

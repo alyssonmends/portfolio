@@ -37,4 +37,15 @@ body {
   cursor: pointer
 }
 
+.nicescroll-rails.nicescroll-rails-vr {
+  z-index: 99999999 !important;
+}
+.nicescroll-cursors {
+  background-color: #1f3847 !important;
+  z-index: 99999999;
+}
+.nicescroll-rails.nicescroll-rails-hr {
+  display: none !important;
+}
+
 `;

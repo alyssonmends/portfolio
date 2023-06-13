@@ -33,7 +33,7 @@ export const Block = styled.div`
 `;
 
 export const ImageBackground = styled.div`
-    background-color: ${({theme}) => theme.colors.terciary};
+    background-color: ${({theme}) => theme.colors.tertiary};
     margin: auto;
     padding: 15px;
     border-radius: 100%;

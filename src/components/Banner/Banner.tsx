@@ -14,13 +14,13 @@ function Banner() {
                     <Text2>Alysson Mendes</Text2>
                     <Text3>Sou desenvolvedor full-stack em JavaScript, C#, .NET, Android e SQL. Atualmente, estou focado no estudo de React e TypeScript para aprimorar minhas habilidades no desenvolvimento de aplicativos web escaláveis e modernos.</Text3>
                     <Follow>
-                        <LinkMedia href="">
+                        <LinkMedia href="https://www.linkedin.com/in/alysson-mendes/" target="_blank">
                             <Image src={LinkedinImage} alt="linkedin" width={20} height={20}/>
                         </LinkMedia>
-                        <LinkMedia href="">
+                        <LinkMedia href="https://github.com/alyssonmends" target="_blank">
                             <Image src={GitImage} alt="git" width={20} height={20}/>
                         </LinkMedia>
-                        <LinkMedia href="">
+                        <LinkMedia href="mailto:alyssonmeng@gmail.com" target="_blank">
                             <Image src={EmailImage} alt="email" width={20} height={20}/>
                         </LinkMedia>
                     </Follow>

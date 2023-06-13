@@ -28,7 +28,7 @@ function WorkBlock({ title, urlImg, techs, description, gitUrl }: HeaderProps) {
   return (
     <>
       <Block onClick={toggle}>
-        <Image src={urlImg} alt={title} width={450} height={250} />
+        <Image src={urlImg} alt={title} width={350} height={200} />
         <Hover>
           <Text>{title}</Text>
           <Flex>
@@ -125,7 +125,7 @@ const StyledModalContent = styled.div`
 const Hover = styled.div`
   position: absolute;
   bottom: -300px;
-  height: 260px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;

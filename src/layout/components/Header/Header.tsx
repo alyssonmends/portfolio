@@ -24,7 +24,7 @@ function Header({title}: HeaderProps) {
                         <MenuOptions href="#work">PROJETOS</MenuOptions>
                         <MenuOptions href="#contact">CONTATO</MenuOptions>
                     </Nav>
-                    <LinkGit href="">
+                    <LinkGit href="https://api.whatsapp.com/send?phone=5585997939177" target="_blank">
                         <Image src={GitImage} alt="git" width={20} height={20} />
                     </LinkGit>
                 </Right>
